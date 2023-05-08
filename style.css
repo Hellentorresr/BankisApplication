@@ -10,10 +10,9 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #444;
-    /*background-color: #f3f3f3;*/
-    background-color: #130b0b31;
+    background-color: #f3f3f3;
     height: 100vh;
     padding: 2rem;
 }
@@ -88,9 +87,8 @@ nav {
     grid-template-rows: auto repeat(3, 15rem) auto;
     gap: 2rem;
 
-    /* NOTE This creates the fade in/out animation */
+    /* NOTE This creates the fade in/out anumation */
     opacity: 0;
-    /*If we comment this line we'll the app without having to login*/
     transition: all 1s;
 }
 
